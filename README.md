@@ -1,6 +1,6 @@
-# InfoGAN-PyTorch
+# TC-GAN
 
-PyTorch implementation of [InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets](https://arxiv.org/abs/1606.03657) with result of experiments on *MNIST*, *FashionMNIST*, *SVHN* and *CelebA* datasets.
+PyTorch implementation of [Independence Constrained Disentangled Representation Learning from Epistemological Perspective](https://arxiv.org/pdf/2409.02672?).
 
 ## Introduction
 InfoGAN is an information-theoretic extension to the simple Generative Adversarial Networks that is able to learn disentangled representations in a completely unsupervised manner. What this means is that InfoGAN successfully disentangle wrirting styles from digit shapes on th MNIST dataset and discover visual concepts such as hair styles and gender on the CelebA dataset. To achieve this an information-theoretic regularization is added to the loss function that enforces the maximization of mutual information between latent codes, c, and the generator distribution G(z, c).
