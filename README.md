@@ -85,28 +85,14 @@ The paper reports mean and standard deviation over **10 runs** and highlights th
 
 | Method | EXP | JEMMIG | MOD | SAP | Z-diff |
 |---|---:|---:|---:|---:|---:|
-| VAE [19] | 0.42 ± .00 | 0.20 ± .00 | 0.87 ± .01 | 0.11 ± .00 | 0.69 ± .03 |
-| beta-VAE [14] | 0.49 ± .00 | 0.26 ± .00 | 0.82 ± .01 | 0.16 ± .00 | 0.86 ± .01 |
-| AnnealedVAE [3] | 0.72 ± .01 | 0.33 ± .00 | _0.97 ± .00_ | 0.39 ± .01 | 0.86 ± .05 |
-| Factor-VAE [17] | 0.41 ± .00 | 0.19 ± .00 | 0.92 ± .01 | 0.21 ± .00 | 0.80 ± .02 |
-| beta-TCVAE [7] | 0.68 ± .01 | 0.12 ± .00 | 0.90 ± .00 | 0.22 ± .00 | 0.87 ± .03 |
-| InfoGAN [8] | 0.54 ± .00 | 0.08 ± .00 | 0.56 ± .02 | 0.05 ± .00 | 0.76 ± .04 |
-| IB-GAN [16] | _0.78 ± .02_ | 0.02 ± .01 | 0.86 ± .03 | 0.19 ± .01 | 0.84 ± .04 |
-| InfoGAN-CR [22] | 0.62 ± .00 | _0.38 ± .00_ | 0.95 ± .00 | _0.41 ± .00_ | _0.99 ± .02_ |
-| **TC-GAN (ours)** | **0.85 ± .01** | **0.45 ± .00** | **0.98 ± .00** | **0.48 ± .00** | **0.99 ± .01** |
+| VAE | 0.42| 0.20 | 0.87 | 0.11 | 0.69 |
+| beta-VAE | 0.49 | 0.26 | 0.82 | 0.16 | 0.86 |
+| AnnealedVAE | 0.72 | 0.33 | 0.97 | 0.39 | 0.86 |
+| Factor-VAE | 0.41  | 0.19 | 0.92 | 0.21 | 0.80 |
+| beta-TCVAE | 0.68  | 0.12 | 0.90  | 0.22 | 0.87 |
+| InfoGAN | 0.54  | 0.08 | 0.56 | 0.05 | 0.76 |
+| IB-GAN | 0.78 | 0.02 | 0.86  | 0.19 | 0.84 |
+| InfoGAN-CR | 0.62 | 0.38 | 0.95 | 0.41 | 0.99 |
+| **TC-GAN (ours)** | **0.85** | **0.45** | **0.98** | **0.48** | **0.99** |
 
-### Qualitative Results (Latent Traversal Figures)
 
-Insert qualitative figure demonstrations here (as in the paper). Replace the `TODO` links with the paths to your generated images.
-
-| Dataset | Example Traversal | Figure Placeholder |
-|---|---|---|
-| MNIST | Traverse on rotation while keeping digit fixed | `![MNIST traversal TODO](./figures/mnist_traversal.png)` |
-| FashionMNIST | Traverse on thickness while keeping item class fixed | `![FashionMNIST traversal TODO](./figures/fashion_traversal.png)` |
-| dSprites | Traverse one factor while keeping others fixed (e.g., rotation vs shape/position) | `![dSprites traversal TODO](./figures/dsprites_traversal.png)` |
-
-## Citation
-
-If you use this project in your work, please cite:
-
-`Independence Constrained Disentangled Representation Learning from Epistemological Perspective (arXiv:2409.02672).`
